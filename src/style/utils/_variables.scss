@@ -1,0 +1,135 @@
+/*----------------------------------------*/
+/*  01. VARIBALES CSS START
+/*----------------------------------------*/
+
+// Colors
+:root {
+  --primary: #e8bf96;
+  --secondary: #2c2c2c;
+
+  --black: #000;
+  --black-2: #1c1d20;
+  --black-3: #212125;
+  --black-4: #262629;
+  --black-5: #27272b;
+  --black-6: #333337;
+  --black-7: #27292d;
+  --black-8: #222227;
+  --black-9: #999999;
+  --black-10: #272422;
+  --black-11: #1d1917;
+  --black-12: #343231;
+  --black-13: #3c3636;
+  --black-14: #39393d;
+  --black-15: #141415;
+
+  --white: #fff;
+  --white-2: #f9f9f9;
+  --white-3: #f3f3f3;
+  --white-4: #efefef;
+  --white-5: #c1c1c1;
+  --white-6: #c9c6de;
+  --white-7: #cdcdcd;
+  --white-8: #c7c7d7;
+  --white-9: #f5f5f5;
+  --white-10: #f0edeb;
+  --white-11: #f0ece9;
+  --white-12: #ddd2cc;
+  --white-13: #f6eeea;
+  --white-14: #f4f0ed;
+  --white-15: #f3f0e4;
+  --white-16: #f2f0e5;
+  --white-17: #f8f8fc;
+  --white-18: #f6f3f0;
+  --white-19: #f5f2ec;
+
+  --gray: #666666;
+  --gray-2: #d9d9d9;
+  --gray-3: #636376;
+  --gray-4: #999999;
+  --gray-5: #232327;
+  --gray-6: #44454a;
+  --gray-7: #63637b;
+  --gray-8: #3b3b3f;
+  --gray-9: #3f3a36;
+  --gray-10: #555555;
+  --gray-11: #89827a;
+  --gray-12: #756f68;
+  --gray-13: #e9e9e9;
+  --gray-14: #3f4044;
+
+  --orange: #fd8f77;
+  --orange-deep: #ef6c22;
+  --orange-light: #bab0aa;
+  --orange-2: #f56c1f;
+  --orange-3: #f3a072;
+
+  --blue-light: #52526c;
+  --blue-2: #3d3f60;
+  --blue-3: #6a6bbf;
+  --blue-4: #494b6c;
+  --blue-5: #bbbcd2;
+  --blue-6: #3f4061;
+  --blue-7: #433e5f;
+  --blue-8: #393b5a;
+  --blue-9: #58597d;
+
+  --yellow: #f4d8bb;
+  --yellow-light: #e8e0db;
+  --yellow-2: #c2b7a1;
+  --yellow-3: #ffc700;
+  --yellow-4: #f59b14;
+  --yellow-5: #f2dca1;
+
+  --purple: #af89ff;
+  --purple-2: #d4bfff;
+  --purple-3: #8181cb;
+
+  --pink: #f8d3d3;
+  --pink-2: #ffa98d;
+  --pink-3: #f4e5d3;
+  --pink-4: #f2ede1;
+  --pink-5: #ffd6b0;
+  --pink-6: #e7e2d1;
+  --pink-7: #dad6c6;
+  --pink-8: #fdc1b4;
+  --pink-9: #f4e6d5;
+  --pink-10: #eee5dc;
+  --pink-11: #dcaf82;
+  --pink-12: #e4ddd5;
+  --pink-13: #f2f1f0;
+  --pink-14: #fcf8f5;
+
+  --green: #3c524c;
+  --green-2: #668d7f;
+  --green-3: #7bd1c4;
+  --green-4: #b1e9b9;
+  --green-5: #4d605a;
+  --green-6: #3f524c;
+  --green-7: #89d0c3;
+  --green-8: #4c605a;
+  --green-9: #a0c1a8;
+  --green-10: #81c9bc;
+}
+
+// Responsive Variable
+$xxxl: "only screen and (min-width: 1920px)";
+$xxl: "only screen and (max-width: 1919px)";
+$xl-1: "only screen and (max-width: 1700px)";
+$xl-2: "only screen and (max-width: 1300px)";
+$xl: "only screen and (max-width: 1399px)";
+$lg: "only screen and (max-width: 1199px)";
+$md: "only screen and (max-width: 991px)";
+$sm: "only screen and (max-width: 767px)";
+$xs: "(max-width: 575px)";
+
+// For Box Layout
+$bl: "only screen and (min-width: 1600px)";
+
+// Responsive Variable for container
+$cxxl: "(width > 1919px)";
+$cxl: "(width > 1399px)";
+$clg: "(width > 1199px)";
+$cmd: "(width > 991px)";
+$csm: "(width > 767px)";
+$cxs: "(width > 575px)";

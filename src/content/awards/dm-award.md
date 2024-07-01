@@ -1,0 +1,20 @@
+---
+sec_name: "Awards"
+items:
+  - name: "02xDeveloper Award"
+    light_img: "/assets/imgs/award/dm/a1.png"
+    dark_img: "/assets/imgs/award/dm/a1-dark.png"
+    status: "Nominee"
+  - name: "02xDeveloper Award"
+    light_img: "/assets/imgs/award/dm/a2.png"
+    dark_img: "/assets/imgs/award/dm/a2-dark.png"
+    status: "Winner"
+  - name: "02xDeveloper Award"
+    light_img: "/assets/imgs/award/dm/a3.png"
+    dark_img: "/assets/imgs/award/dm/a3-dark.png"
+    status: "Runners Up"
+  - name: "02xDeveloper Award"
+    light_img: "/assets/imgs/award/dm/a4.png"
+    dark_img: "/assets/imgs/award/dm/a4-dark.png"
+    status: "Winner"
+---

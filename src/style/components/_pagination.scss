@@ -1,0 +1,141 @@
+.blog-pagination {
+  &.pt-120 {
+    padding-top: 60px;
+  }
+
+  ul {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  li {
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--white);
+      text-transform: capitalize;
+
+      @include light {
+        color: var(--black-2);
+      }
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+
+  .prev {
+    margin-inline-end: 15px;
+
+    svg {
+      margin-inline-end: 7px;
+
+      @include rtl {
+        transform: rotateY(180deg);
+      }
+    }
+  }
+
+  .next {
+    margin-inline-start: 15px;
+
+    svg {
+      margin-inline-start: 7px;
+
+      @include rtl {
+        transform: rotateY(180deg);
+      }
+    }
+  }
+
+  .active p {
+    color: var(--black-9);
+
+    @include light {
+      color: var(--black-9);
+    }
+  }
+}
+
+.pagination-2 {
+  gap: 3px;
+  display: flex;
+
+  @media #{$sm} {
+    justify-content: center;
+  }
+
+  .page-numbers {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fcfaf5;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include light {
+      color: #16254c;
+    }
+
+    &:not(.prev, .next):hover {
+      color: #16254c;
+      background-color: #f5f3ed;
+    }
+  }
+
+  .prev {
+    justify-content: flex-start;
+
+    @include rtl {
+      transform: rotate(180deg);
+      justify-content: flex-end;
+    }
+  }
+
+  .next {
+    justify-content: flex-end;
+
+    @include rtl {
+      transform: rotate(180deg);
+      justify-content: flex-start;
+    }
+  }
+
+  .current {
+    color: #16254c;
+    background-color: #f5f3ed;
+  }
+
+  i {
+    font-size: 18px;
+
+    &:hover {
+      color: var(--primary, #e8bf96);
+    }
+  }
+
+  path {
+    transition: all 0.3s;
+
+    @include light {
+      fill: #16254c;
+    }
+  }
+
+  svg {
+    width: 1em;
+    height: 1em;
+    font-size: 18px;
+
+    &:hover path {
+      fill: var(--primary, #e8bf96);
+    }
+  }
+}

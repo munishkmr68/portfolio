@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "meta_author": "Wealcoder",
+    "meta_image": "",
+    "meta_description": "personal portfolio website"
+  },
+
+  "site_info": {
+    "title": "personal portfolio",
+    "description": "Create live segments and target the right people for messages based on their behaviors.",
+    "base_url": "",
+    "favicon": "/assets/imgs/logo/favicon.png",
+    "logo": "/assets/imgs/logo/site-logo-light.png",
+    "logo_dark": "/assets/imgs/logo/site-logo-dark.png",
+    "logo_width": "110",
+    "logo_height": "54",
+    "logo2": "/assets/imgs/logo/site-logo-light-2.png",
+    "logo_dark2": "/assets/imgs/logo/site-logo-dark-2.png",
+    "logo_width2": "50",
+    "logo_height2": "25",
+    "logo_text": "Portfolio"
+  },
+
+  "footer_info": {
+    "floating_shape": "/assets/imgs/common/flower.png",
+    "address": {
+      "name": "6541, Brand tower, New York, USA",
+      "link": "https://maps.app.goo.gl/JNHvEqWiaBD6fZvUA",
+      "iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280006535!2d-74.14448744699548!3d40.69763123333062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1705913587617!5m2!1sen!2sbd"
+    },
+    "email": "munish.kmr60@gmail.com",
+    "mobile": "+91-9501978494",
+    "open_date": "Sun - Mon",
+    "open_time": "8:30 am - 7:30 pm",
+    "copyright": {
+      "enable": true,
+      "label": "© Alrights reserved by",
+      "company": "Munish Kumar",
+      "link": "https://wealcoder.com/"
+    },
+    "subscription": {
+      "enable": true,
+      "title": "Stay in touch",
+      "sub_title": "Get updated information and daily health tips",
+      "input_placeholder": "Enter your email",
+      "submit_button": {
+        "enable": true,
+        "image": "/assets/imgs/common/btn-icon.png",
+        "image_dark": "/assets/imgs/common/btn-icon-dark.png"
+      }
+    },
+    "court_fees": {
+      "enable": true,
+      "title": "All court and law fees start at",
+      "price": "$28.09"
+    }
+  },
+
+  "social": [
+    {
+      "name": "Fb",
+      "link": "https://www.facebook.com/",
+      "value": "750,000"
+    },
+    {
+      "name": "Tw",
+      "link": "https://twitter.com/",
+      "value": "750,000"
+    },
+    {
+      "name": "In",
+      "link": "https://www.instagram.com/",
+      "value": "750,000"
+    },
+    {
+      "name": "Db",
+      "link": "https://dribbble.com/",
+      "value": "750,000"
+    },
+    {
+      "name": "Li",
+      "link": "https://www.behance.net/",
+      "value": "750,000"
+    }
+  ],
+
+  "gallery": {
+    "title": "gallery",
+    "items": [
+      {
+        "image": "/assets/imgs/thumb/gallery.jpg",
+        "link": "#"
+      },
+      {
+        "image": "/assets/imgs/thumb/gallery-2.jpg",
+        "link": "#"
+      },
+      {
+        "image": "/assets/imgs/thumb/gallery-3.jpg",
+        "link": "#"
+      },
+      {
+        "image": "/assets/imgs/thumb/gallery-4.jpg",
+        "link": "#"
+      },
+      {
+        "image": "/assets/imgs/thumb/gallery-5.jpg",
+        "link": "#"
+      },
+      {
+        "image": "/assets/imgs/thumb/gallery-6.jpg",
+        "link": "#"
+      }
+    ]
+  }
+}

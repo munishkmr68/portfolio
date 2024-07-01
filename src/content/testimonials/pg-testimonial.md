@@ -1,0 +1,23 @@
+---
+items:
+  - name: "Mukkher Halk"
+    role: "CEO, Admand"
+    image: "/assets/imgs/testimonial/pg/1.png"
+    text: "Joya was fantastic with being responsive, professional, knowledgeable, and skilled. He was able to grasp the concept that was intended and helped me decide on clean and beautiful presentation guy."
+  - name: "Mukkher Halk"
+    role: "CEO, Admand"
+    image: "/assets/imgs/testimonial/pg/2.png"
+    text: "Joya was fantastic with being responsive, professional, knowledgeable, and skilled. He was able to grasp the concept that was intended and helped me decide on clean and beautiful presentation guy."
+  - name: "Mukkher Halk"
+    role: "CEO, Admand"
+    image: "/assets/imgs/testimonial/pg/1.png"
+    text: "Joya was fantastic with being responsive, professional, knowledgeable, and skilled. He was able to grasp the concept that was intended and helped me decide on clean and beautiful presentation guy."
+  - name: "Mukkher Halk"
+    role: "CEO, Admand"
+    image: "/assets/imgs/testimonial/pg/2.png"
+    text: "Joya was fantastic with being responsive, professional, knowledgeable, and skilled. He was able to grasp the concept that was intended and helped me decide on clean and beautiful presentation guy."
+  - name: "Mukkher Halk"
+    role: "CEO, Admand"
+    image: "/assets/imgs/testimonial/pg/1.png"
+    text: "Joya was fantastic with being responsive, professional, knowledgeable, and skilled. He was able to grasp the concept that was intended and helped me decide on clean and beautiful presentation guy."
+---

@@ -1,0 +1,397 @@
+/*----------------------------------------*/
+/*  01. TYPOGRAPHY CSS START
+/*----------------------------------------*/
+
+// ----------------------------
+// Font Family
+// ---------------------------
+
+// Euclid Circular B
+@font-face {
+  font-family: euclid_Circular_B;
+  src: url("/assets/fonts/euclid-circular-b/Euclid-Circular-B-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: euclid_Circular_B;
+  src: url("/assets/fonts/euclid-circular-b/Euclid-Circular-B-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: euclid_Circular_B;
+  src: url("/assets/fonts/euclid-circular-b/Euclid-Circular-B-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: euclid_Circular_B;
+  src: url("/assets/fonts/euclid-circular-b/Euclid-Circular-B-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: euclid_Circular_B;
+  src: url("/assets/fonts/euclid-circular-b/Euclid-Circular-B-Bold.ttf");
+  font-weight: 700;
+}
+
+// Estedad
+@font-face {
+  font-family: Estedad;
+  src: url("/assets/fonts/estedad/Estedad-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Estedad;
+  src: url("/assets/fonts/estedad/Estedad-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Estedad;
+  src: url("/assets/fonts/estedad/Estedad-Regular.ttf");
+  font-weight: 400;
+}
+
+//  newYork
+@font-face {
+  font-family: newYork;
+  src: url("/assets/fonts/newyork/FontsFree-Net-NewYork.ttf");
+  font-weight: 400;
+}
+
+//  gallient
+@font-face {
+  font-family: gallient;
+  src: url("/assets/fonts/gallient/GallientRegular-eZoMp.ttf");
+  font-weight: 400;
+}
+
+//  Glorify DEMO
+@font-face {
+  font-family: Glorify DEMO;
+  src: url("/assets/fonts/glorify/Glorifydemo-BW3J3.otf");
+  font-weight: 400;
+}
+
+// Messiri
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Prata&display=swap&family=Bentham&display=swap&family=Teko:wght@300;400;500;600;700&display=swap");
+
+// Kumbh Sans
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+// Overlock
+@import url("https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&display=swap");
+
+// Manrope
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+// Jakarta
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+//Macondo
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+:root {
+  // Downloaded Fonts
+  --font_primary: "euclid_Circular_B";
+  --font_estedad: "Estedad";
+  --font_newyork: "newYork";
+  --font_gallient: "gallient";
+  --font_lora: "Lora", serif;
+  --font_prata: "Prata", serif;
+  --font_bentham: "Bentham", serif;
+  --font_glorifydemo: "Glorify DEMO";
+
+  // Google Fonts
+  --font_kanit: "Kanit", sans-serif;
+  --font_macondo: "Macondo", cursive;
+  --font_teko: "Teko", sans-serif;
+  --font_jakarta: "Plus Jakarta Sans", sans-serif;
+  --font_kumbh: "Kumbh Sans", sans-serif;
+  --font_overlock: "Overlock", cursive;
+  --font_manrope: "Manrope", sans-serif;
+
+  // Fonts Awesome
+  --font_awesome: "Font Awesome 6 Free";
+}
+
+// Downloaded Fonts
+$font_primary: "euclid_Circular_B";
+$font_estedad: "Estedad";
+$font_newyork: "newYork";
+$font_gallient: "gallient";
+$font_lora: "Lora", serif;
+$font_prata: "Prata", serif;
+$bentham: "Bentham", serif;
+$font_glorifydemo: "Glorify DEMO";
+
+// Google Fonts
+$font_kanit: "Kanit", sans-serif;
+$font_macondo: "Macondo", cursive;
+$teko: "Teko", sans-serif;
+$font_jakarta: "Plus Jakarta Sans", sans-serif;
+$font_kumbh: "Kumbh Sans", sans-serif;
+$font_overlock: "Overlock", cursive;
+$font_manrope: "Manrope", sans-serif;
+
+// Fonts Awesome
+$font_awesome: "Font Awesome 6 Free";
+
+// Font Family Classes
+.font {
+  &-body {
+    &-euclid {
+      font-family: $font_primary;
+    }
+
+    &-estedad {
+      font-family: $font_estedad;
+    }
+
+    &-newyork {
+      font-family: $font_newyork;
+    }
+
+    &-gallient {
+      font-family: $font_gallient;
+    }
+
+    &-lora {
+      font-family: $font_lora;
+    }
+
+    &-prata {
+      font-family: $font_prata;
+    }
+
+    &-bentham {
+      font-family: $bentham;
+    }
+
+    &-glorifydemo {
+      font-family: $font_glorifydemo;
+    }
+
+    &-kanit {
+      font-family: $font_kanit;
+    }
+
+    &-macondo {
+      font-family: $font_macondo;
+    }
+
+    &-teko {
+      font-family: $teko;
+    }
+
+    &-jakarta {
+      font-family: $font_jakarta;
+    }
+
+    &-kumbh {
+      font-family: $font_kumbh;
+    }
+
+    &-overlock {
+      font-family: $font_overlock;
+    }
+
+    &-manrope {
+      font-family: $font_manrope;
+    }
+  }
+
+  &-heading {
+    &-euclid {
+      @include heading($font_primary);
+    }
+
+    &-estedad {
+      @include heading($font_estedad);
+    }
+
+    &-newyork {
+      @include heading($font_newyork);
+    }
+
+    &-gallient {
+      @include heading($font_gallient);
+    }
+
+    &-lora {
+      @include heading($font_lora);
+    }
+
+    &-prata {
+      @include heading($font_prata);
+    }
+
+    &-bentham {
+      @include heading($bentham);
+    }
+
+    &-glorifydemo {
+      @include heading($font_glorifydemo);
+    }
+
+    &-kanit {
+      @include heading($font_kanit);
+    }
+
+    &-teko {
+      @include heading($teko);
+    }
+
+    &-jakarta {
+      @include heading($font_jakarta);
+    }
+
+    &-kumbh {
+      @include heading($font_kumbh);
+    }
+
+    &-overlock {
+      @include heading($font_overlock);
+    }
+
+    &-manrope {
+      @include heading($font_manrope);
+    }
+  }
+}
+
+// Defalut Style
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font_primary;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  color: var(--white);
+
+  @include light {
+    color: var(--black-2);
+  }
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-4);
+}
+
+strong {
+  font-weight: 500;
+}
+
+video,
+iframe,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.medium {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+// No Gutter
+@media #{$sm} {
+  .g-0 {
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+  }
+
+  .row.g-0 {
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+main {
+  // display: inline-block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}

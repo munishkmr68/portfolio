@@ -1,0 +1,123 @@
+.ms-quote {
+  .wrap {
+    max-width: 910px;
+    margin: 0 auto;
+  }
+
+  .content {
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+
+    @media #{$sm} {
+      padding-top: 60px;
+    }
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 50px;
+      height: 50px;
+      top: 0;
+      inset-inline-start: 150px;
+      background-image: url(/assets/imgs/quote/ms/quote.png);
+      background-repeat: no-repeat;
+
+      @include light {
+        filter: brightness(0);
+      }
+
+      @include rtl {
+        transform: rotateY(180deg);
+      }
+
+      @media #{$md} {
+        inset-inline-start: 50px;
+      }
+
+      @media #{$sm} {
+        inset-inline-start: 0;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 50px;
+      height: 50px;
+      bottom: 0;
+      inset-inline-end: 150px;
+      background-image: url(/assets/imgs/quote/ms/quote-2.png);
+      background-repeat: no-repeat;
+
+      @include light {
+        filter: brightness(0);
+      }
+
+      @include rtl {
+        transform: rotateY(180deg);
+      }
+
+      @media #{$md} {
+        inset-inline-end: 50px;
+      }
+
+      @media #{$sm} {
+        inset-inline-end: 0;
+        bottom: 50px;
+      }
+    }
+  }
+
+  .text {
+    p {
+      font-size: 36px;
+      line-height: 1.3;
+      color: var(--white-14);
+      padding-bottom: 40px;
+
+      @include light {
+        color: var(--black-2);
+      }
+
+      @media #{$lg} {
+        font-size: 30px;
+      }
+
+      @media #{$md} {
+        font-size: 28px;
+      }
+
+      @media #{$sm} {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .name {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 500;
+    color: var(--white-14);
+    padding-bottom: 5px;
+
+    @include light {
+      color: var(--black-2);
+    }
+
+    @media #{$sm} {
+      padding-top: 30px;
+    }
+  }
+
+  .role {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--white-14);
+
+    @include light {
+      color: var(--black-2);
+    }
+  }
+}

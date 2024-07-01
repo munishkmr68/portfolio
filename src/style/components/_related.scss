@@ -1,0 +1,11 @@
+.related1 {
+  .sec-title-wrapper {
+    text-align: center;
+    border-top: 1px solid var(--black-6);
+    background-color: var(--black-2);
+
+    @include light {
+      background-color: var(--white);
+    }
+  }
+}

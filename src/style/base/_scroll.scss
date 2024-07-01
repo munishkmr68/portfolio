@@ -1,0 +1,60 @@
+.scroll-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9991;
+  border-radius: 100px;
+  color: var(--white);
+  background: var(--white);
+  transition: all 0.3s;
+  display: none;
+  mix-blend-mode: exclusion;
+  // update v0.2
+  svg {
+    font-size: 18px;
+    color: var(--black-2);
+  }
+
+  &:hover {
+    color: var(--gray-2);
+  }
+
+  @media #{$lg} {
+    bottom: 80px;
+  }
+
+  @media #{$md} {
+    right: 10px;
+    bottom: 60px;
+  }
+
+  @media #{$sm} {
+    right: 5px;
+    bottom: 55px;
+  }
+}
+
+.scroll-top2 {
+  width: 105px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  color: var(--white);
+  background-image: url(/assets/imgs/common/go-top.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  right: 16%;
+  z-index: 9;
+  transition: all 0.5s;
+
+  @include light {
+    color: var(--black-2);
+    background-image: url(/assets/imgs/common/go-top-dark.png);
+  }
+
+  &:hover {
+    color: var(--primary);
+  }
+}

@@ -1,0 +1,80 @@
+.rm-knowledge-section {
+  .wrapper {
+    display: grid;
+    gap: 15px;
+
+    @container #{$cxs} {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+.knowledge-card1 {
+  background-color: #233259;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @include light {
+    background-color: #f5f3ed;
+  }
+
+  .icon {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    background-color: #ffdaa2;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fcfaf5;
+
+    @include light {
+      color: #16254c;
+    }
+  }
+
+  &:nth-child(1) {
+    .icon {
+      background-color: #9a9eff;
+    }
+  }
+
+  &:nth-child(2) {
+    .icon {
+      background-color: #ffdaa2;
+    }
+  }
+
+  &:nth-child(3) {
+    .icon {
+      background-color: #7dded8;
+    }
+  }
+
+  &:nth-child(4) {
+    .icon {
+      background-color: #ee94c4;
+    }
+  }
+
+  &:nth-child(5) {
+    .icon {
+      background-color: #b3da83;
+    }
+  }
+
+  &:nth-child(6) {
+    .icon {
+      background-color: #f9b099;
+    }
+  }
+}
