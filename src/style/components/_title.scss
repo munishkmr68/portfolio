@@ -1,0 +1,59 @@
+.free-sec-title1 {
+  margin-inline-end: 110px;
+  text-align: end;
+
+  @media #{$xxl} {
+    margin-inline-end: 90px;
+  }
+
+  @media #{$xl} {
+    margin-inline-end: 50px;
+  }
+
+  @media #{$lg} {
+    margin-inline-end: 20px;
+  }
+
+  @media #{$sm} {
+    margin-inline-end: 0;
+    text-align: start;
+  }
+}
+
+.rm-sec-title1 {
+  .title {
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 8px;
+
+    &__border {
+      width: 50px;
+      height: 3px;
+      background-color: #9a9eff;
+      border-radius: 3px;
+      margin-inline-start: 10px;
+      position: relative;
+
+      &:before,
+      &:after {
+        position: absolute;
+        content: "";
+        width: 3px;
+        height: 3px;
+        background-color: #fcfaf5;
+        border-radius: 3px;
+        inset-inline-start: -10px;
+
+        @include light {
+          background-color: #16254c;
+        }
+      }
+
+      &:after {
+        background-color: #ffdaa2 !important;
+        inset-inline-start: -5px;
+      }
+    }
+  }
+}

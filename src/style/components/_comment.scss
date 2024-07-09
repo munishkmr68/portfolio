@@ -1,0 +1,433 @@
+.comment-section-1 {
+  max-width: 900px;
+
+  .title {
+    color: var(--white-11);
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+
+    @include light {
+      color: var(--black-2);
+    }
+
+    @media #{$lg} {
+      font-size: 35px;
+    }
+
+    @media #{$md} {
+      font-size: 25px;
+    }
+  }
+
+  .form {
+    padding-top: 65px;
+
+    .field {
+      label {
+        display: block;
+        margin-bottom: 15px;
+        color: var(--gray-4);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: capitalize;
+
+        @include light {
+          color: #555555;
+        }
+      }
+
+      input {
+        width: 100%;
+        height: 60px;
+        padding: 20px;
+        background-color: #212125;
+        border: 0;
+        color: var(--white);
+        @include light {
+          background-color: #f5f5f5;
+          color: var(--black-2);
+        }
+
+        &::placeholder {
+          color: #bebebe;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1;
+
+          @include light {
+            color: #999999;
+          }
+        }
+
+        &:focus {
+          outline: 0;
+        }
+      }
+
+      textarea {
+        @extend input;
+        height: 120px;
+        resize: none;
+      }
+    }
+
+    .contact-btnwraper {
+      max-width: 200px;
+      margin-top: 40px;
+
+      .submit-btn {
+        border-top: 1px solid var(--white);
+        border-bottom: 1px solid var(--white);
+        padding: 15px;
+        color: var(--white-11);
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        width: 100%;
+        transition: all 0.3s;
+
+        @include light {
+          border-top: 1px solid var(--black-9);
+          border-bottom: 1px solid var(--black-9);
+          color: var(--black-2);
+        }
+
+        &:hover {
+          color: var(--primary);
+
+          img {
+            transform: rotate(45deg);
+
+            @include rtl {
+              transform: rotate(225deg);
+            }
+          }
+        }
+
+        img {
+          margin-inline-start: 10px;
+          transition: all 0.3s;
+
+          @include rtl {
+            transform: rotate(270deg);
+          }
+        }
+      }
+    }
+  }
+}
+
+.comment-section-2 {
+  max-width: 900px;
+
+  .title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1;
+    color: var(--white-15);
+    padding-bottom: 10px;
+
+    @include light {
+      color: var(--green-6);
+    }
+  }
+
+  .form {
+    padding-top: 65px;
+
+    .field {
+      input {
+        width: 100%;
+        background-color: transparent;
+        border: 0;
+        color: var(--white);
+        border-bottom: 1px solid var(--green-5);
+        padding-bottom: 5px;
+
+        @include light {
+          color: var(--black-2);
+        }
+
+        &::placeholder {
+          color: var(--white);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1;
+
+          @include light {
+            color: var(--black-2);
+          }
+        }
+
+        &:focus {
+          outline: 0;
+        }
+      }
+
+      textarea {
+        @extend input;
+        margin-top: 40px;
+      }
+    }
+
+    .checkbox {
+      margin-top: 30px;
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+
+      input {
+        height: 20px;
+        width: 20px;
+        border: 1px solid var(--white);
+        appearance: none;
+        transition: 1s;
+        margin-top: 2px;
+
+        @include light {
+          border-color: var(--black-2);
+        }
+      }
+
+      label {
+        position: relative;
+        color: var(--white);
+
+        @include light {
+          color: var(--black-2);
+        }
+
+        &::before {
+          content: "";
+          height: 8px;
+          width: 9px;
+          background-image: url("/assets/imgs/common/check-sign.png");
+          background-repeat: no-repeat;
+          position: absolute;
+          top: 7px;
+          transition: 0.5s;
+          inset-inline-start: -21px;
+          opacity: 0;
+          visibility: hidden;
+          filter: brightness(100);
+
+          @include light {
+            filter: brightness(0);
+          }
+        }
+      }
+
+      input:checked ~ label::before {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    .contact-btnwraper {
+      margin-top: 40px;
+    }
+  }
+
+  &.version-2 {
+    .title {
+      color: var(--white);
+
+      @include light {
+        color: var(--black-2);
+      }
+    }
+
+    .form {
+      .field {
+        input {
+          border-bottom: 1px solid var(--gray-10);
+
+          @include light {
+            color: var(--black-2);
+          }
+        }
+      }
+    }
+  }
+
+  &.version-3 {
+    .title {
+      color: var(--white);
+
+      @include light {
+        color: var(--black-2);
+      }
+    }
+
+    .form {
+      .field {
+        input {
+          border-bottom: 1px solid var(--blue-9);
+
+          @include light {
+            color: var(--black-2);
+          }
+        }
+      }
+    }
+  }
+}
+
+.comment-section-3 {
+  .commentform {
+    &-title {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 1;
+      color: var(--white-15);
+
+      @include light {
+        color: var(--black-2);
+      }
+    }
+  }
+
+  .wrap {
+    max-width: 100%;
+    margin: auto;
+
+    .formwrap {
+      display: flex;
+      gap: 40px;
+
+      @media #{$md} {
+        flex-wrap: wrap;
+      }
+    }
+
+    .formfield {
+      width: 100%;
+
+      @media #{$md} {
+        max-width: 100%;
+      }
+
+      input {
+        width: 100%;
+        border: 0;
+        background: transparent;
+        color: var(--white);
+        padding-bottom: 5px;
+        border-bottom: 1px solid var(--gray-10);
+
+        &::placeholder {
+          color: var(--white);
+
+          @include light {
+            color: var(--black-2);
+          }
+        }
+
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+
+    .msg {
+      margin-top: 40px;
+
+      input {
+        width: 100%;
+        border: 0;
+        background: transparent;
+        color: var(--white);
+        padding-bottom: 5px;
+        border-bottom: 1px solid var(--gray-10);
+
+        &::placeholder {
+          color: var(--white);
+
+          @include light {
+            color: var(--black-2);
+          }
+        }
+
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+
+    .checkbox {
+      margin-top: 30px;
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+
+      input {
+        height: 20px;
+        width: 20px;
+        border: 1px solid var(--white);
+        appearance: none;
+        transition: 1s;
+        margin-top: 2px;
+
+        @include light {
+          border: 1px solid var(--gray-10);
+        }
+      }
+
+      label {
+        position: relative;
+        color: var(--white);
+
+        @include light {
+          color: var(--gray-10);
+        }
+
+        &::before {
+          content: "";
+          height: 8px;
+          width: 9px;
+          background-image: url("/assets/imgs/common/check-sign.png");
+          background-repeat: no-repeat;
+          position: absolute;
+          top: 7px;
+          transition: 0.5s;
+          inset-inline-start: -21px;
+          opacity: 0;
+          visibility: hidden;
+          filter: brightness(100);
+
+          @include light {
+            filter: brightness(0);
+          }
+        }
+      }
+    }
+
+    .checkbox input:checked ~ label::before {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .submit-comment__btn {
+    .btn-hover-divide {
+      &:hover {
+        color: var(--black-2);
+
+        @include light {
+          color: var(--white);
+        }
+      }
+
+      &::after {
+        background-color: var(--white);
+
+        @include light {
+          background-color: var(--black-2);
+        }
+      }
+    }
+  }
+}

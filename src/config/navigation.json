@@ -1,0 +1,687 @@
+{
+  "header1": [
+    {
+      "name": "Home",
+      "path": "/product-designer#top"
+    },
+    {
+      "name": "About",
+      "path": "/product-designer#about"
+    },
+    {
+      "name": "Resume",
+      "path": "/product-designer#resume"
+    },
+    {
+      "name": "Work",
+      "path": "/product-designer#work"
+    },
+    {
+      "name": "Service",
+      "path": "/product-designer#service"
+    },
+    {
+      "name": "Testimonial",
+      "path": "/product-designer#testimonial"
+    },
+    {
+      "name": "Blog",
+      "path": "/product-designer#blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/product-designer#contact"
+    }
+  ],
+  "header2": [
+    {
+      "name": "Home",
+      "path": "/developer"
+    },
+    {
+      "name": "About",
+      "path": "/developer/about"
+    },
+    {
+      "name": "Project",
+      "path": "/developer/portfolio"
+    },
+    {
+      "name": "Service",
+      "path": "/developer/service"
+    },
+    {
+      "name": "Blog",
+      "path": "/developer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/developer/contact"
+    }
+  ],
+  "header3": [
+    {
+      "name": "Home",
+      "path": "/freelancer"
+    },
+    {
+      "name": "About",
+      "path": "/freelancer/about"
+    },
+    {
+      "name": "Page",
+      "path": "#",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Project",
+          "path": "/freelancer/portfolio"
+        },
+        {
+          "name": "Service",
+          "path": "/freelancer/service"
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "path": "/freelancer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/freelancer/contact"
+    }
+  ],
+  "header4": [
+    {
+      "name": "Home",
+      "path": "/digital-marketer"
+    },
+    {
+      "name": "About",
+      "path": "/digital-marketer/about"
+    },
+    {
+      "name": "Page",
+      "path": "#",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Portfolio",
+          "path": "/digital-marketer/portfolio"
+        },
+        {
+          "name": "Service",
+          "path": "/digital-marketer/service"
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "path": "/digital-marketer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/digital-marketer/contact"
+    }
+  ],
+  "header5": [
+    {
+      "name": "Home",
+      "image": "/assets/imgs/nav-image/resume/home.png",
+      "path": "/resume#hero"
+    },
+    {
+      "name": "About",
+      "image": "/assets/imgs/nav-image/resume/about.png",
+      "path": "/resume#about"
+    },
+    {
+      "name": "Resume",
+      "image": "/assets/imgs/nav-image/resume/resume.png",
+      "path": "/resume#resume"
+    },
+    {
+      "name": "Work",
+      "image": "/assets/imgs/nav-image/resume/work.png",
+      "path": "/resume#work"
+    },
+    {
+      "name": "Pricing",
+      "image": "/assets/imgs/nav-image/resume/pricing.png",
+      "path": "/resume#pricing"
+    },
+    {
+      "name": "Blog",
+      "image": "/assets/imgs/nav-image/resume/blog.png",
+      "path": "/resume#blog"
+    },
+    {
+      "name": "Contact",
+      "image": "/assets/imgs/nav-image/resume/contact.png",
+      "path": "/resume#contact"
+    }
+  ],
+  "header6": [
+    {
+      "name": "Home",
+      "path": "/health-coach"
+    },
+    {
+      "name": "About",
+      "path": "/health-coach/about"
+    },
+    {
+      "name": "Page",
+      "path": "#",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Course",
+          "path": "/health-coach/service"
+        },
+        {
+          "name": "Blog",
+          "path": "/health-coach/blog"
+        },
+        {
+          "name": "Shop",
+          "path": "/health-coach/product"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "path": "/health-coach/contact"
+    }
+  ],
+  "header7": [
+    {
+      "name": "Home",
+      "path": "/content-writer"
+    },
+    {
+      "name": "About",
+      "path": "/content-writer/about"
+    },
+    {
+      "name": "Service",
+      "path": "/content-writer/service"
+    },
+    {
+      "name": "Blog",
+      "path": "/content-writer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/content-writer/contact"
+    }
+  ],
+  "header8": [
+    {
+      "name": "Home",
+      "path": "/writer"
+    },
+    {
+      "name": "About",
+      "path": "/writer/about"
+    },
+    {
+      "name": "Page",
+      "path": "#",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Book",
+          "path": "/writer/book"
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "path": "/writer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/writer/contact"
+    }
+  ],
+  "header9": [
+    {
+      "name": "Home",
+      "path": "/photographer"
+    },
+    {
+      "name": "About",
+      "path": "/photographer/about"
+    },
+    {
+      "name": "Service",
+      "path": "/photographer/service"
+    },
+    {
+      "name": "Portfolio",
+      "path": "/photographer/portfolio"
+    },
+    {
+      "name": "Blog",
+      "path": "/photographer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/photographer/contact"
+    }
+  ],
+  "header10": [
+    {
+      "name": "Home",
+      "path": "/lawyer"
+    },
+    {
+      "name": "About",
+      "path": "/lawyer/about"
+    },
+    {
+      "name": "Page",
+      "path": "#",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Service",
+          "path": "/lawyer/service"
+        },
+        {
+          "name": "Team",
+          "path": "/lawyer/team"
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "path": "/lawyer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/lawyer/contact"
+    }
+  ],
+  "header11": [
+    {
+      "name": "Home",
+      "path": "/yoga-trainer"
+    },
+    {
+      "name": "About",
+      "path": "/yoga-trainer/about"
+    },
+    {
+      "name": "Page",
+      "path": "#",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Class",
+          "path": "/yoga-trainer/class"
+        },
+        {
+          "name": "Media",
+          "path": "/yoga-trainer/media"
+        },
+        {
+          "name": "Pricing",
+          "path": "/yoga-trainer/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "path": "/yoga-trainer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/yoga-trainer/contact"
+    }
+  ],
+  "header12": [
+    {
+      "name": "Home",
+      "path": "/dancer"
+    },
+    {
+      "name": "About",
+      "path": "/dancer/about"
+    },
+    {
+      "name": "Page",
+      "path": "#",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Class",
+          "path": "/dancer/class"
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "path": "/dancer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/dancer/contact"
+    }
+  ],
+  "header13": [
+    {
+      "name": "Home",
+      "path": "/motivational-speaker"
+    },
+    {
+      "name": "About",
+      "path": "/motivational-speaker/about"
+    },
+    {
+      "name": "Page",
+      "path": "#",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Media",
+          "path": "/motivational-speaker/media"
+        },
+        {
+          "name": "Book",
+          "path": "/motivational-speaker/book"
+        }
+      ]
+    },
+    {
+      "name": "Event",
+      "path": "/motivational-speaker/event"
+    },
+    {
+      "name": "Blog",
+      "path": "/motivational-speaker/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/motivational-speaker/contact"
+    }
+  ],
+  "header14": [
+    {
+      "name": "Home",
+      "path": "/fashion-designer"
+    },
+    {
+      "name": "About",
+      "path": "/fashion-designer/about"
+    },
+    {
+      "name": "Service",
+      "path": "/fashion-designer/service"
+    },
+    {
+      "name": "Portfolio",
+      "path": "/fashion-designer/portfolio"
+    },
+    {
+      "name": "Blog",
+      "path": "/fashion-designer/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/fashion-designer/contact"
+    }
+  ],
+  "header15": [
+    {
+      "name": "Home",
+      "path": "/doctor"
+    },
+    {
+      "name": "About",
+      "path": "/doctor/about"
+    },
+    {
+      "name": "Appointment",
+      "path": "/doctor/appointment"
+    },
+    {
+      "name": "Blog",
+      "path": "/doctor/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/doctor/contact"
+    }
+  ],
+  "footer1": [
+    {
+      "name": "Motivation",
+      "path": "#"
+    },
+    {
+      "name": "Career",
+      "path": "#"
+    },
+    {
+      "name": "Privacy Policy",
+      "path": "#"
+    },
+    {
+      "name": "Inspiration",
+      "path": "#"
+    },
+    {
+      "name": "Daily Routine",
+      "path": "#"
+    },
+    {
+      "name": "Journey",
+      "path": "#"
+    },
+    {
+      "name": "Blog",
+      "path": "#"
+    },
+    {
+      "name": "My Service",
+      "path": "#"
+    }
+  ],
+  "footer2": [
+    {
+      "name": "About",
+      "path": "/content-writer/about"
+    },
+    {
+      "name": "Service",
+      "path": "/content-writer/service"
+    },
+    {
+      "name": "Blog",
+      "path": "/content-writer/blog"
+    }
+  ],
+  "footer3": [
+    {
+      "name": "Company",
+      "path": "#"
+    },
+    {
+      "name": "Career",
+      "path": "#"
+    },
+    {
+      "name": "Privacy Policy",
+      "path": "#"
+    },
+    {
+      "name": "Project",
+      "path": "#"
+    }
+  ],
+  "footer4": [
+    {
+      "name": "About",
+      "path": "/photographer/about"
+    },
+    {
+      "name": "Works",
+      "path": "/photographer/portfolio"
+    },
+    {
+      "name": "Blog",
+      "path": "/photographer/blog"
+    }
+  ],
+  "footer5": [
+    {
+      "title": "Law sections",
+      "children": [
+        {
+          "name": "Main Page",
+          "path": "/lawyer"
+        },
+        {
+          "name": "Story",
+          "path": "/lawyer"
+        },
+        {
+          "name": "FAQ",
+          "path": "/lawyer"
+        },
+        {
+          "name": "Privacy Policy",
+          "path": "/lawyer"
+        }
+      ]
+    },
+    {
+      "title": "Work inquiries",
+      "children": [
+        {
+          "name": "Works",
+          "path": "/lawyer"
+        },
+        {
+          "name": "Expertise",
+          "path": "/lawyer"
+        },
+        {
+          "name": "About",
+          "path": "/lawyer"
+        },
+        {
+          "name": "Journal",
+          "path": "/lawyer"
+        }
+      ]
+    }
+  ],
+  "footer6": [
+    {
+      "name": "About",
+      "path": "/yoga-trainer/about"
+    },
+    {
+      "name": "Class",
+      "path": "/yoga-trainer/class"
+    },
+    {
+      "name": "Media",
+      "path": "/yoga-trainer/media"
+    },
+    {
+      "name": "Blog",
+      "path": "/yoga-trainer/blog"
+    }
+  ],
+  "footer7": [
+    {
+      "name": "About",
+      "path": "/dancer/about"
+    },
+    {
+      "name": "Course",
+      "path": "/dancer/course"
+    },
+    {
+      "name": "Blog",
+      "path": "/dancer/blog"
+    }
+  ],
+  "footer8": [
+    {
+      "name": "Main Page",
+      "path": "#"
+    },
+    {
+      "name": "Story",
+      "path": "#"
+    },
+    {
+      "name": "FAQ",
+      "path": "#"
+    },
+    {
+      "name": "Privacy Policy",
+      "path": "#"
+    },
+    {
+      "name": "Works",
+      "path": "#"
+    },
+    {
+      "name": "Expertise",
+      "path": "#"
+    },
+    {
+      "name": "About",
+      "path": "#"
+    },
+    {
+      "name": "Journal",
+      "path": "#"
+    }
+  ],
+  "footer9": [
+    {
+      "name": "Motivation",
+      "path": "#"
+    },
+    {
+      "name": "Career",
+      "path": "#"
+    },
+    {
+      "name": "Privacy Policy",
+      "path": "#"
+    },
+    {
+      "name": "Videos",
+      "path": "#"
+    },
+    {
+      "name": "Marketing",
+      "path": "#"
+    },
+    {
+      "name": "Events",
+      "path": "#"
+    },
+    {
+      "name": "Journey",
+      "path": "#"
+    },
+    {
+      "name": "Blog",
+      "path": "/doctor/blog"
+    },
+    {
+      "name": "Inspiration",
+      "path": "#"
+    }
+  ]
+}

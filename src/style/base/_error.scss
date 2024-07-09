@@ -1,0 +1,56 @@
+.error-hero-section {
+  background-color: white;
+  height: 100vh;
+  .content {
+    text-align: center;
+
+    p {
+      color: var(--gray);
+    }
+  }
+
+  .title {
+    font-size: 180px;
+    color: var(--black-2);
+    font-family: "Prata", serif;
+
+    @media #{$lg} {
+      font-size: 100px;
+    }
+
+    @media #{$sm} {
+      font-size: 60px;
+    }
+  }
+
+  .sub-title {
+    font-size: 60px;
+    color: var(--black-2);
+    font-family: "Prata", serif;
+
+    @media #{$lg} {
+      font-size: 50px;
+    }
+
+    @media #{$sm} {
+      font-size: 30px;
+    }
+  }
+
+  .btn-hover-cross {
+    &::after {
+      background-color: var(--gray);
+    }
+
+    &:hover {
+      border-color: var(--primary);
+      color: white;
+      background-color: transparent;
+
+      &::after {
+        height: 120%;
+        opacity: 1;
+      }
+    }
+  }
+}

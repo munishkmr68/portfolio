@@ -1,0 +1,147 @@
+.text-slider {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+
+  .rfm-child {
+    margin-inline-end: 20px;
+  }
+
+  .text-slide-content {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.dm-text-slider {
+  position: relative;
+  padding-bottom: 240px;
+
+  @media #{$lg} {
+    padding-bottom: 180px;
+  }
+
+  @media #{$sm} {
+    padding-bottom: 50px;
+  }
+
+  .waveline {
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media #{$lg} {
+      bottom: 110px;
+    }
+
+    @media #{$sm} {
+      display: none;
+    }
+  }
+
+  .text-slide-content {
+    margin-right: 60px;
+
+    @media #{$md} {
+      margin-right: 30px;
+    }
+  }
+
+  .title {
+    font-size: 250px;
+    color: var(--white);
+
+    @include light {
+      color: var(--black-2);
+    }
+
+    @media #{$xl-1} {
+      font-size: 160px;
+    }
+
+    @media #{$lg} {
+      font-size: 120px;
+    }
+
+    @media #{$md} {
+      font-size: 100px;
+    }
+
+    @media #{$sm} {
+      font-size: 60px;
+    }
+  }
+}
+
+.hc-text-slider {
+  .text-slider {
+    background-color: var(--green-3);
+
+    .title {
+      color: var(--green-6);
+    }
+  }
+}
+
+.cw-text-slider {
+  border-top: 1px solid var(--white);
+
+  @include light {
+    border-color: var(--black-2);
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .text-slide-content {
+    gap: 30px;
+    margin-inline-end: 10px;
+  }
+}
+
+.pg-text-slider {
+  background-color: var(--primary);
+
+  @media #{$sm} {
+    padding: 20px 0;
+  }
+
+  .text-slide-content {
+    gap: 30px;
+    margin-inline-end: 10px;
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.05;
+    color: var(--black-2);
+    text-transform: uppercase;
+
+    @media #{$xl} {
+      font-size: 32px;
+    }
+
+    @media #{$sm} {
+      font-size: 24px;
+    }
+  }
+
+  .text-slider {
+    @media #{$sm} {
+      padding: 0;
+    }
+  }
+}
