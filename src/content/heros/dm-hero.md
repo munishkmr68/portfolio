@@ -18,7 +18,6 @@ tools:
   items:
     - light_img: "/assets/imgs/hero/dm/linkedin.png"
     - light_img: "/assets/imgs/hero/dm/upwork.png"
-    - light_img: "/assets/imgs/hero/dm/google.png"
   tools_link:
     - link: "https://www.linkedin.com/in/munishsingla60/"
     - link: "https://www.upwork.com/freelancers/~0122a9e10b8fd61548"

@@ -38,7 +38,7 @@ export default function DigitalMarketerContact() {
       'service_nwtiycm', // Replace with your EmailJS service ID
       'template_yl2dxmc', // Replace with your EmailJS template ID
       templateParams,
-      'VxgwosiELvvMXcwHO' // Replace with your EmailJS user ID
+      'VxgwosiELvvMXcwHO' // Replace with your Public Key
     ).then((response) => {
       toast.success("Message sent successfully");
       reset();

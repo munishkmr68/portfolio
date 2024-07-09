@@ -1476,14 +1476,15 @@
   }
 
   .tools {
-    gap: 5px;
+    gap: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    // justify-content: space-between;
     padding-inline-end: 80px;
 
     img {
-      max-width: 130px;
+      min-height: 30px;
+      object-fit: contain;
 
       @media #{$sm} {
         width: 100px;
