@@ -1,6 +1,6 @@
 ---
 title: "Custom Web Development"
-short_description: "Bespoke web development solutions tailored to your specific needs."
+short_description: "I build robust and scalable web applications tailored to modern business requirements and user expectations."
 image: "/assets/imgs/service/dm/icon/1.png"
 details_image: "/assets/imgs/service/webdev/items/3.jpg"
 main_content:

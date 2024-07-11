@@ -138,7 +138,7 @@ export default function DigitalMarketerHero({ hero = undefined }) {
                           data-on-scroll="0"
                           data-delay={delayFunction(i + 1)}
                         >
-                          <Link href={tools.tools_link[i].link}>
+                          <Link href={tools.tools_link[i].link} target="_blank">
                             <ImageComponent
                               width={127}
                               height={39}

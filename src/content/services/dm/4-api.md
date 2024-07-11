@@ -1,6 +1,6 @@
 ---
 title: "API Integration Services"
-short_description: "Seamless API integration to enhance your web application's functionality."
+short_description: "I specialize in designing and integrating APIs to optimize data exchange and extend application functionality, supporting the interconnected nature of contemporary digital environments."
 image: "/assets/imgs/service/dm/icon/4.png"
 details_image: "/assets/imgs/service/webdev/items/4.jpg"
 main_content:

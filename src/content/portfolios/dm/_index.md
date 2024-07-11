@@ -3,7 +3,7 @@
 
 sec_name: "Portfolio"
 sec_title: "My recent <br> work"
-short_description: "My recent works that inform and provoke with creative {web & app developer} who dream the world better place by creating captivating products."
+short_description: "My portfolio showcases my proficiency as a full-stack developer specializing in WordPress, Shopify, React, Node.js, and custom web solutions. Each project is crafted to captivate users with innovative digital experiences that leave a lasting impact. I am dedicated to not only demonstrating my skills but also delivering optimal solutions for your web development, web design, and custom project requirements."
 see_all_btn:
   enable: true
   label: "View more works"

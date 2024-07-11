@@ -1,6 +1,6 @@
 ---
 title: "Hi 🖐 I’m Munish kumar"
-sub_title: "Unlock your global potential with the best <br> {Web Development} tools"
+sub_title: "Transform your online presence with my innovative web development services. Let's build something extraordinary together."
 image:
   light_img: "/assets/imgs/hero/dm/hero-munish.png"
 typed_title:
@@ -14,7 +14,7 @@ action_btn:
   link: "/contact"
 tools:
   enable: true
-  label: "Connect with me"
+  label: "Drop me a line"
   items:
     - light_img: "/assets/imgs/hero/dm/linkedin.png"
     - light_img: "/assets/imgs/hero/dm/upwork.png"

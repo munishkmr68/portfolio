@@ -1,6 +1,6 @@
 ---
 title: "Responsive Web Design"
-short_description: "Creating responsive websites that provide an optimal viewing experience on any device."
+short_description: "I create websites that are fully responsive, ensuring seamless user experiences across diverse devices and screen sizes."
 image: "/assets/imgs/service/dm/icon/3.png"
 details_image: "/assets/imgs/service/webdev/items/2.png"
 main_content:

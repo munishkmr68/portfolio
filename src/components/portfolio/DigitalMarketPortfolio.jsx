@@ -62,8 +62,8 @@ export default function DeveloperPortfolio({
               />
             </div>
           </div>
-          <div className="col-md-5">
-            <div className="sec-text-width" ref={textMoveAnim}>
+          <div className="col-md-8">
+            <div ref={textMoveAnim}>
               <p
                 dangerouslySetInnerHTML={convertWithBrSpanImg(
                   short_description
@@ -71,7 +71,6 @@ export default function DeveloperPortfolio({
               />
             </div>
           </div>
-          <div className="col-md-3"></div>
         </div>
       </div>
 
@@ -115,24 +114,26 @@ export default function DeveloperPortfolio({
                 key={`testimonial_section-${i}`}
               >
                 <div className="slide ">
-                  <Image
-                    width={700}
-                    height={500}
-                    style={{
-                      height: "auto",
-                      aspectRatio: "7/5",
-                      objectFit: "cover",
-                    }}
-                    src={item.frontmatter.image}
-                    className="jh-img"
-                    alt="Portfolio Image"
-                  />
-                  <h2 className="title">{item.frontmatter.title}</h2>
-                  <h3 className="date">
-                    {item.frontmatter.category[0]}
-                    {/* ,{" "}
+                  <Link href={`${rootUrl}/portfolio/${item.slug}`}>
+                    <Image
+                      width={700}
+                      height={500}
+                      style={{
+                        height: "auto",
+                        aspectRatio: "7/5",
+                        objectFit: "cover",
+                      }}
+                      src={item.frontmatter.image}
+                      className="jh-img"
+                      alt="Portfolio Image"
+                    />
+                    <h2 className="title">{item.frontmatter.title}</h2>
+                    <h3 className="date">
+                      {item.frontmatter.category[0]}
+                      {/* ,{" "}
                       {item.frontmatter.end_date} */}
-                  </h3>
+                    </h3>
+                  </Link>
                 </div>
               </SwiperSlide>
             ))}

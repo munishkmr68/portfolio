@@ -1,6 +1,6 @@
 ---
 title: "Let’s make something great together"
-details: "Contact us to get more information for using year overly digital marketing will be lightly touch."
+details: "Contact me to learn more about how my expertise in full-stack development can enhance your digital marketing efforts in the coming year."
 image: "/assets/imgs/cta/cta2/notification.png"
 action_btn:
   enable: true

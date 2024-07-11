@@ -1,6 +1,6 @@
 ---
 title: "E-commerce Solutions"
-short_description: "Robust e-commerce development for scalable and efficient online stores."
+short_description: "I develop customized e-commerce platforms that prioritize secure transactions and enhance the overall shopping experience for customers."
 image: "/assets/imgs/service/dm/icon/2.png"
 details_image: "/assets/imgs/service/webdev/items/2.jpg"
 main_content:
