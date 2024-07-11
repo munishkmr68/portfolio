@@ -185,6 +185,7 @@
     @media #{$md} {
       font-size: 24px;
       margin-bottom: 20px;
+      margin-top: 20px;
     }
   }
 
@@ -222,7 +223,7 @@
 
       @media #{$md} {
         padding-left: 0;
-        padding-bottom: 0;
+        padding-bottom: 30px;
       }
 
       &::before {

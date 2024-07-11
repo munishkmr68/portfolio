@@ -303,6 +303,7 @@
       @media #{$md} {
         border-bottom: none;
         padding-bottom: 0px;
+        border: none !important; 
       }
 
       &:first-child,
@@ -324,6 +325,7 @@
         @media #{$md} {
           border-right: none;
           padding-right: 0px;
+  
         }
       }
       &:nth-child(even) {
