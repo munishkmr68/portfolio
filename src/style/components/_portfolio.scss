@@ -1,4 +1,10 @@
 // Portfolio Card
+.dev-portfolio p {
+  strong {
+    color: var(--black-2);
+    font-weight: 600;
+  }
+}
 .portfolio-card1 {
   overflow: hidden;
   position: relative;

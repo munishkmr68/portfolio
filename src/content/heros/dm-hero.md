@@ -1,6 +1,6 @@
 ---
 title: "Hi 🖐 I’m Munish kumar"
-sub_title: "Transform your online presence with my innovative web development services. Let's build something extraordinary together."
+sub_title: "Revolutionize Your Online Presence with my innovative web development expertise. Together, we'll build something exceptional."
 image:
   light_img: "/assets/imgs/hero/dm/hero-munish.png"
 typed_title:
