@@ -114,7 +114,7 @@ export default function DeveloperPortfolio({
                 key={`testimonial_section-${i}`}
               >
                 <div className="slide ">
-                  <Link href={`${rootUrl}/portfolio/${item.slug}`}>
+         
                     <Image
                       width={700}
                       height={500}
@@ -133,7 +133,7 @@ export default function DeveloperPortfolio({
                       {/* ,{" "}
                       {item.frontmatter.end_date} */}
                     </h3>
-                  </Link>
+           
                 </div>
               </SwiperSlide>
             ))}
