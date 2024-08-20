@@ -16,7 +16,7 @@ export default function Footer2() {
           <div className="row">
             <div className="col-lg-3">
               <div className="logo">
-                <Logo customWidth={100} customHeight={50} />
+                <Logo customWidth={218} customHeight={57} />
               </div>
             </div>
             <div className="col-lg-9">

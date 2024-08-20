@@ -28,7 +28,7 @@ export default function Logo({
 
   return (
     <>
-      <Link href={"/"}>
+   
         {path ? (
           <Image
             width={customWidth || logo_width.replace("px", "") * 2}
@@ -46,7 +46,7 @@ export default function Logo({
         ) : (
           title
         )}
-      </Link>
+     
     </>
   );
 }
